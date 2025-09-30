@@ -1,0 +1,56 @@
+Supervised Model Evaluation Metrics
+========================
+Descision Tree = 0.7333,
+Logistic Regression = 0.9000,
+Random Forest = 0.8833
+SVM = 0.8833
+Confusion Matrix:
+[[32  2]
+ [ 4 22]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.94      0.91        34
+           1       0.92      0.85      0.88        26
+
+    accuracy                           0.90        60
+   macro avg       0.90      0.89      0.90        60
+weighted avg       0.90      0.90      0.90        60
+----------------------------------------------------------------------------------------------------
+Unsupervised Model Evaluation Metrics
+========================
+Silhouette Score of Clustering: 0.48
+
+               Unnamed: 0        age       sex        cp       fbs   restecg  \
+K-means Label                                                                  
+0              139.028249  52.231638  0.632768  2.920904  0.146893  0.937853   
+1              161.233333  57.950000  0.741667  3.508333  0.141667  1.083333   
+
+                  thalach     exang   oldpeak     slope        ca      thal  \
+K-means Label                                                                 
+0              165.028249  0.169492  0.655932  1.412429  0.474576  4.242938   
+1              126.841667  0.558333  1.645000  1.883333  0.975000  5.450000   
+
+                    num  
+K-means Label            
+0              0.288136  
+1              0.716667  
+----------------------------------------------------------------------------------------------------
+Hyperparameter Tunning Supervised Model Evaluation Metrics
+========================
+Test Score = 0.92
+Confusion Matrix:
+[[33  3]
+ [ 2 22]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.92      0.93        36
+           1       0.88      0.92      0.90        24
+
+    accuracy                           0.92        60
+   macro avg       0.91      0.92      0.91        60
+weighted avg       0.92      0.92      0.92        60
+----------------------------------------------------------------------------------------------------
