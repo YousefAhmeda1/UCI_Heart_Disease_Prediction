@@ -88,20 +88,13 @@ Confusion Matrix (Tuned Model):
 
 ---
 
-## 🚀 Streamlit Application
+🚀 Streamlit Application
+The project includes an interactive Streamlit app for real-time predictions.
 
-The project includes an interactive **Streamlit app** for real-time predictions:  
-
-![Heart Disease Prediction App](./ef2918fd-ea12-408d-9f61-adb908e50c26.PNG)  
-
----
-
-## 📊 Visualizations
-
-The app also provides **interactive data visualizations** such as correlation heatmaps, age distributions, and chest pain vs disease plots:  
-
-![Data Visualizations](./Visualization.PNG)  
-
+**To run the app:**
+```bash
+cd UI
+streamlit run app.py
 ---
 
 ## 📂 Project Structure
@@ -158,3 +151,4 @@ ngrok http 8501
 ## 📌 Dataset  
 - **UCI Heart Disease Dataset**  
   [Link to Dataset](https://archive.ics.uci.edu/ml/datasets/heart+disease)  
+
